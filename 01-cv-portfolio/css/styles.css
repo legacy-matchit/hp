@@ -58,7 +58,7 @@ a, button{ display: inline-block; text-decoration: none; color: inherit; line-he
 
 a:focus, a:active, a:hover,
 button:focus, button:active, button:hover,
-a b.light-color:hover{ text-decoration: none; color: #6704F2; }
+a b.light-color:hover{ text-decoration: none; color: #28023D; }
 
 b{ font-weight: 600; }
 
@@ -98,7 +98,7 @@ b.max-bold{ font-weight: 700; }
 
 .font-yellow{ color:#F2A444 ; }
 .font-custom1{ color:#03738C ; }
-.font-custom2{ color:#F2A444 ; }
+.font-custom2{ color:#E9BA5F ; }
 
 .font-semi-white{ color: #ddd; }
 
@@ -150,7 +150,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 	overflow: hidden; z-index: 1; position: relative; margin: 0 5px 5px; background: #887392; color: #fff; }
 
 .intro .social-icons > li > a:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-	top: 0; z-index: -1; border-radius: 20px; background: #6704F2; 
+	top: 0; z-index: -1; border-radius: 20px; background: #28023D; 
 	-webkit-transition: all .2s ease; transition: all .2s ease;
 	-webkit-transform: scale(0); transform: scale(0); }
 
@@ -221,7 +221,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 .education-wrapper .education:after{ content:''; position: absolute; top: 8px; left: -58px; width: 16px; 
 	height: 16px; border-radius: 10px; z-index: 1;
-	box-shadow: 0 0 0 8px rgba(255,171,0, .4); background: #6704F2; }
+	box-shadow: 0 0 0 8px rgba(255,171,0, .4); background: #D94B18; }
 	
 	
 /* ---------------------------------
@@ -260,5 +260,5 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 10. FOOTER
 --------------------------------- */
 
-.copyright{ text-align: center; padding: 30px 0; background: #28023D; }
+.copyright{ text-align: center; padding: 30px 0; background: #012E40; }
 
