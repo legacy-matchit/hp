@@ -76,7 +76,8 @@ button{ outline: 0; border: 0; background: none; cursor: pointer; }
 
 b.max-bold{ font-weight: 700; }
 
-.s1 { text-shadow: 0.0px 0.5px 0.0px #777; }
+.s1 { text-shadow: 0.0px 0.5px 0.0px #777;
+	  text-decoration:underline }
 
 
 /* ---------------------------------
