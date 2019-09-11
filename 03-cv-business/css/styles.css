@@ -140,7 +140,7 @@ b.max-bold{ font-weight: 700; }
 
 .intro{ color: #fff; }
 
-.intro .profile-img{ width: 200px; height:250px; border-radius: 15px; overflow: hidden; background-color: rgba(3, 3, 3, 0.747); background-blend-mode: multiply;position: absolute; opacity : 0.7;}
+.intro .profile-img{max-width:200px; max-height:250px; border-radius: 15px; overflow: hidden; background-color: rgba(3, 3, 3, 0.747); background-blend-mode: multiply;position: absolute; opacity : 0.7;}
 
 .intro .information > li{ display: block; margin: 5px 0; }
 
