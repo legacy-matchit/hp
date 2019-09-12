@@ -62,7 +62,7 @@ a, button{ display: inline-block; text-decoration: none; color: inherit; line-he
 
 a:focus, a:active, a:hover,
 button:focus, button:active, button:hover,
-a b.light-color:hover{ text-decoration: none; color: #D168FF; }
+a b.light-color:hover{ text-decoration: none; color:#D98989; }
 
 b{ font-weight: 600; }
 
@@ -91,7 +91,7 @@ b.max-bold{ font-weight: 700; }
 .section .heading{ margin-bottom: 60px; display: inline-block; }
 
 .section .heading:before{ content:''; height: 10px; width: 50px; border-radius: 5px;
-	margin: 0 auto 20px; display: block; background: #6A0DC4; }
+	margin: 0 auto 20px; display: block; background: #590212; }
 	
 .margin-t-10{ margin-top: 10px; }
 .margin-t-30{ margin-top: 30px; }
@@ -103,7 +103,7 @@ b.max-bold{ font-weight: 700; }
 .margin-tb-30{ margin-top: 30px; margin-bottom: 30px; }
 .margin-tb-50{ margin-top: 50px; margin-bottom: 50px; }
 
-.font-yellow{ color: #D168FF; }
+.font-yellow{ color: #BF4953; }
 
 .font-semi-white{ color: #ddd; }
 
@@ -121,13 +121,13 @@ b.max-bold{ font-weight: 700; }
 	z-index: 1;background-image: url(../../images/slider-4-1920x1080.jpg); }
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
-	right: 0; background: rgba(0, 0, 0, 0.6); }
+	right: 0; background: rgba(0, 0, 0, 0.75); }
 
 	
 /* HEADER */
 
 .intro-section .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; margin-bottom: 50px;
-	background: #5944A6; color: #fff; }
+	background: #732959; color: #fff; }
 
 .intro-section .info{ margin-bottom: 10px; }
 
@@ -140,16 +140,16 @@ b.max-bold{ font-weight: 700; }
 
 .intro{ color: #fff; }
 
-.intro .profile-img{ max-width:250px; max-height:300px; border-radius: 5px; overflow: hidden; opacity : 0.7;}
+.intro .profile-img{ max-width:250px; max-height:300px; border-radius: 5px; overflow: hidden; opacity : 0.75;}
 
 .intro .information > li{ display: block; margin: 5px 0; }
 
 .intro .social-icons > li > a{ height: 35px; line-height: 35px; width: 35px; border-radius: 20px; 
 	overflow: hidden; z-index: 1; position: relative; margin: 0 5px 5px; text-align: center;
-	background: #887392; color: #fff; }
+	background: #D9A79C; color: #fff; }
 
 .intro .social-icons > li > a:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-	top: 0; z-index: -1; border-radius: 20px; background: #D168FF; 
+	top: 0; z-index: -1; border-radius: 20px; background:#D98989; 
 	-webkit-transition: all .2s ease; transition: all .2s ease;
 	-webkit-transform: scale(0); transform: scale(0); }
 
@@ -157,7 +157,7 @@ b.max-bold{ font-weight: 700; }
 
 
 .intro .downlad-btn{ padding: 15px 30px; border-radius: 4px; float: right; margin-top: 30px;
-	box-shadow: inset 0 0px 4px rgba(0,0,0,.3); background: #5944A6; color: #fff; 
+	box-shadow: inset 0 0px 4px rgba(0,0,0,.3); background: #732959; color: #fff; 
 	-webkit-transition: all .2s ease; transition: all .2s ease; }
 
 .intro .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: translateY(-4px); }
@@ -171,7 +171,7 @@ b.max-bold{ font-weight: 700; }
 
 .counter{ position: relative; }
 	
-.counter .title{ color: #493C87; text-align: right; margin-right: 130px; }
+.counter .title{ color: #A64962; text-align: right; margin-right: 130px; }
 
 .counter .desc{ position: absolute; bottom: 4px; right: 0px; width: 110px; }
 
@@ -202,7 +202,7 @@ b.max-bold{ font-weight: 700; }
 
 .portfolio-section .portfolioFilter a{ margin: 10px 10px 0 0; }
 
-.portfolio-section .portfolioFilter a.current{ color: #D168FF; }
+.portfolio-section .portfolioFilter a.current{ color:#D98989; }
 
 .portfolio-section .portfolioContainer{ margin-left: -15px; margin-right: -15px; }
 
@@ -231,7 +231,7 @@ b.max-bold{ font-weight: 700; }
 
 .education-wrapper .education:after{ content:''; position: absolute; top: 8px; width: 16px; 
 	height: 16px; border-radius: 10px; z-index: 1;
-	box-shadow: 0 0 0 8px rgb(213, 209, 240); background: #9E91F2; }
+	box-shadow: 0 0 0 8px #F2E6D8; background:#BF3F4A; }
 	
 .education-wrapper .education.left:after{ right: -8px; }
 
@@ -249,7 +249,7 @@ b.max-bold{ font-weight: 700; }
 	right: 0; background: rgba(0,0,0, .7); }
 	
 .quoto-section .icon{ margin-bottom: 20px; height: 40px; width: 40px; line-height: 40px; 
-	border-radius: 30px; background: #7B62D9; color: #fff; }
+	border-radius: 30px; background: #D9A79C; color: #fff; }
 
 	
 
@@ -258,7 +258,7 @@ b.max-bold{ font-weight: 700; }
 --------------------------------- */
 
 .skills-section .expert{ margin-top: 10px; display: inline-block; padding: 1px 25px 0; 
-	border-radius: 5px; background: #9E91F2; color: #fff; }
+	border-radius: 5px; background: #BF3F4A; color: #fff; }
 
 	
 /* LINE PROGRESSBAR */
@@ -295,5 +295,5 @@ b.max-bold{ font-weight: 700; }
 10. FOOTER
 --------------------------------- */
 
-.copyright{ text-align: center; padding: 30px 0; background: #D4DBF5; }
+.copyright{ text-align: center; padding: 30px 0; background: #F2E6D8; }
 
