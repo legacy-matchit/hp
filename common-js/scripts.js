@@ -99,7 +99,7 @@ function enableRadialProgress(){
 				
 			},
 			from: { color: '#aaa', width: 1 },
-			to: { color: '#F28D77', width: 3 },
+			to: { color: '#9E91F2', width: 3 },
 			// Set default step function for all animate calls
 			step: function(state, circle) {
 				circle.path.setAttribute('stroke', state.color);
@@ -132,7 +132,7 @@ function enableLineProgress(){
 			strokeWidth: 1,
 			easing: 'easeInOut',
 			duration: 1400,
-			color: '#F2BBAE',
+			color: '#9E91F2',
 			trailColor: '#eee',
 			trailWidth: 1,
 			svgStyle: {width: '100%', height: '100%'},
