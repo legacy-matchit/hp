@@ -91,7 +91,7 @@ b.max-bold{ font-weight: 700; }
 .section .heading{ margin-bottom: 60px; display: inline-block; }
 
 .section .heading:before{ content:''; height: 10px; width: 50px; border-radius: 5px;
-	margin: 0 auto 20px; display: block; background: #6503A6; }
+	margin: 0 auto 20px; display: block; background: #D97171; }
 	
 .margin-t-10{ margin-top: 10px; }
 .margin-t-30{ margin-top: 30px; }
@@ -103,8 +103,8 @@ b.max-bold{ font-weight: 700; }
 .margin-tb-30{ margin-top: 30px; margin-bottom: 30px; }
 .margin-tb-50{ margin-top: 50px; margin-bottom: 50px; }
 
-.font-yellow{ color: #F28D77; }
-.font-header{ color: #F25C5C; }
+.font-yellow{ color: #F28972; }
+.font-header{ color: #F24405; }
 
 .font-semi-white{ color: #ddd; }
 
@@ -128,7 +128,7 @@ b.max-bold{ font-weight: 700; }
 /* HEADER */
 
 .intro-section .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; margin-bottom: 50px;
-	background:#7D4EBF; color: #fff; }
+	background:#7C428C; color: #fff; }
 
 .intro-section .info{ margin-bottom: 10px; }
 
@@ -148,10 +148,10 @@ b.max-bold{ font-weight: 700; }
 
 .intro .social-icons > li > a{ height: 35px; line-height: 35px; width: 35px; border-radius: 20px; 
 	overflow: hidden; z-index: 1; position: relative; margin: 0 5px 5px; text-align: center;
-	background: #887392; color: #fff; }
+	background: #F2A679; color: #fff; }
 
 .intro .social-icons > li > a:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-	top: 0; z-index: -1; border-radius: 20px; background: #F28D77; 
+	top: 0; z-index: -1; border-radius: 20px; background: #D97171; 
 	-webkit-transition: all .2s ease; transition: all .2s ease;
 	-webkit-transform: scale(0); transform: scale(0); }
 
@@ -159,7 +159,7 @@ b.max-bold{ font-weight: 700; }
 
 
 .intro .downlad-btn{ padding: 15px 30px; border-radius: 4px; float: right; margin-top: 30px;
-	box-shadow: inset 0 0px 4px rgba(0,0,0,.3); background:#7D4EBF; color: #fff; 
+	box-shadow: inset 0 0px 4px rgba(0,0,0,.3); background:#7C428C; color: #fff; 
 	-webkit-transition: all .2s ease; transition: all .2s ease; }
 
 .intro .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: translateY(-4px); }
@@ -173,7 +173,7 @@ b.max-bold{ font-weight: 700; }
 
 .counter{ position: relative; }
 	
-.counter .title{ color:#7D4EBF; text-align: right; margin-right: 130px; }
+.counter .title{ color:#F2A679; text-align: right; margin-right: 130px; }
 
 .counter .desc{ position: absolute; bottom: 4px; right: 0px; width: 110px; }
 
@@ -218,7 +218,7 @@ b.max-bold{ font-weight: 700; }
 7. EDUCATION SECTION
 --------------------------------- */
 
-.education-wrapper{ position: relative; overflow: hidden; text-align: center; }
+.education-wrapper{ position: relative; overflow: hidden; text-align: center;}
 
 .education-wrapper:after{ content:''; position: absolute; top: 8px; bottom: 0; left: 50%;
 	margin-left: -1px; width: 2px; background: #ccc; }
@@ -233,7 +233,7 @@ b.max-bold{ font-weight: 700; }
 
 .education-wrapper .education:after{ content:''; position: absolute; top: 8px; width: 16px; 
 	height: 16px; border-radius: 10px; z-index: 1;
-	box-shadow: 0 0 0 8px rgba(255,171,0, .4); background:#F28D77; }
+	box-shadow: 0 0 0 8px rgb(253, 209, 184); background:#F28972; }
 	
 .education-wrapper .education.left:after{ right: -8px; }
 
@@ -251,7 +251,7 @@ b.max-bold{ font-weight: 700; }
 	right: 0; background: rgba(0, 0, 0, 0.473); }
 	
 .quoto-section .icon{ margin-bottom: 20px; height: 40px; width: 40px; line-height: 40px; 
-	border-radius: 30px; background: #F29A2E; color: #fff; }
+	border-radius: 30px; background: #F2A679; color: #fff; }
 
 	
 
@@ -297,5 +297,5 @@ b.max-bold{ font-weight: 700; }
 10. FOOTER
 --------------------------------- */
 
-.copyright{ text-align: center; padding: 30px 0; background: #F2D5C4; }
+.copyright{ text-align: center; padding: 30px 0; background: rgb(253, 209, 184); }
 
