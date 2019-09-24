@@ -64,7 +64,7 @@ b{ font-weight: 600; }
 
 img{ width: 100%; }
 
-li{ list-style: none; display: inline-block; }
+li{ display: inline-block; }
 
 span{ display: inline-block; }
 
@@ -115,7 +115,8 @@ b.max-bold{ font-weight: 700; }
 	right: 0; background: rgba(0,0,0, .2); }
 
 	
-/* HEADER */
+/* HEADER */
+
 .intro-section .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; margin-bottom: 50px;
 	background: #FFAD01; color: #fff; }
 
@@ -174,10 +175,12 @@ b.max-bold{ font-weight: 700; }
 5. EXPERIENCE SECTION
 --------------------------------- */
 
+.experience-section{ background: #28023D; color: #fff; }
+
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
 
 .experience .list > li:before{ content: ''; position: absolute; top: 50%; left: 0; height: 10px; 
-	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #555; }
+	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #fff; }
 
 	
 
